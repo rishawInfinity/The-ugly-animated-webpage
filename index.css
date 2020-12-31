@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #4f3b5b;
+    animation-name: changes;
+    animation-duration: 10s;
+}
+
+@keyframes changes{
+    0%{background-color: aliceblue;}
+    50%{background-color: blue;}
+}
+.contact1{
+    animation-name: example;
+    animation-duration: 10s;
+    height: 50px;
+    top:10px;
+    border-color: #fff;
+}
+
+@keyframes example {
+    /* from {background-color: red;}
+    to {background-color: yellow;} */
+    
+    
+    
+    0%{color:aqua;}
+    25%{color: #4f3b5b;left:500px;}
+    50%{color:none;text-align:center;}
+    60%{color:white;rigth:1000px;}
+    80%{color:green;text-align:center;}
+  }
+
+
+  @keyframes upperchange{
+    0%{color:white;}
+    25%{color: darkturquoise;left:400px;}
+    50%{color: black;rigth:400px;}
+    75%{color:white;rigth:0px}
+    100%{color: aqua;}
+  }
+@keyframes changebackheader{
+    0%{background-color: black;}
+    25%{background-color: #ff4da6;}
+    50%{background-color: beige;}
+    75%{background-color: aqua;}
+    100%{background-color: black;}
+}
+  .upar{
+    animation-name: changebackheader;
+    animation-duration: 4s;
+  }
+.header1{
+    position: relative;
+    animation-name:upperchange;
+    animation-duration: 4s;
+    font-size: 50px;
+    text-align: center;
+    color: darkturquoise;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+to {
+  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+
+.swagat{
+    text-shadow:5px 2px 6px white;
+    word-spacing: 10px;
+}
+.infosis{
+    text-shadow: 10px 2px 8px white, 0 0 15px aqua ;
+}
+
+nav{
+    position: sticky;
+}
+.inside{
+    list-style-type:none;
+    text-decoration: none;
+    text-decoration-line: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+    background-color: aqua;
+    /* position: sticky; */
+}
+
+#tsearch{
+    font-size: 20px;
+    height: 10px;
+    width: 300px;
+    padding: 10px;
+    bottom: 50px;
+    position: relative;
+    top:17px;
+    left: 500px;
+
+}
+#search{
+    position: relative;
+    height: 25px;
+    width:50px ;
+    left: 505px;
+    top: 20px;
+    border-radius: 20px;
+    background-color: #4f3b5b;
+}
+#images{
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+
+ .link{
+     margin: 20px;
+}
+/*
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    color;
+} */
+
+/* .link:hover{
+    color: yellow;
+}
+
+.link:visited{
+    color:white;
+} */
+
+#navbar:hover{
+    background-color: aqua ;
+    color:yellow;
+}
+/* .secimg{
+    position: fixed;
+    
+} */
+/* .section{
+    background-color: black;
+} */
+
+/* .down{
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 535px;
+    width: 100%;
+} */
+
+.firsttext{
+    color:aqua;
+    font-size: 80px;
+    position: absolute;
+    bottom: 250px;
+    left: 125px;
+}
+
+.sectiona{
+    background-color: black;
+}
+
+.indies{
+    color:0;
+    font-size: 20px;
+    position: relative;
+    top:275px;
+    right:-200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.indexpy{
+    background-repeat: no-repeat;
+    position: absolute;
+    /* height: 100px;
+    width: 100px; */
+    right: 125px;
+    bottom: 50px;
+    
+}
+
+.contact1{
+    position: relative;
+    top:500px;
+
+}
+
+.get
+{
+    position: relative;
+    top: 575px;
+    left: 0px;
+    color: aqua;
+    
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.geta
+{
+    position: relative;
+    top: 575px;
+    left: 0px;
+    color: aqua;
+    
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.horia
+{
+    position:relative;
+    top:600px;
+}
+
+.horib{
+    position:relative;
+    top:605px;
+}
+
+.geta
+{
+    position: relative;
+    top: 625px;
+    left: 0px;
+    color: aqua;
+    
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutlista {
+    color:aqua;
+    text-align: center;
+    list-style-type: numeric;
+    position: relative;
+    top: 600px;
+    font-size: 20px;
+
+}
+.horic{
+    position: relative;
+    top:650px;
+}
+.lowerfooter{
+    position: relative;
+    top:650px;
+    color: aqua;
+    text-align: center;
+}
+.horid{
+    position: relative;
+    top:650px;
+}
+.footertexta{
+    position: relative;
+    top: 675px;
+    color:aqua;
+    text-align: center;
+}
+
+#entername{
+    position: relative;
+    top: 680px;
+    left: 38%;
+    font-size: larger;
+    border-color: aqua;
+    border-radius: 5px;
+    opacity: px;
+}
+
+#entermail{
+    position: relative;
+    top: 680px;
+    left: 37.5%;
+    margin:5px;
+    font-size: larger;
+    border-radius: 5px;
+    border-color: aqua;
+    opacity: px;
+}
+
+#mobileno{
+    text-align: center;
+    position: relative;
+    top: 680px;
+    left: 37.5%;
+    margin:5px;
+    font-size: larger;
+    border-radius: 5px;
+    border-color: aqua;
+    
+
+}
+
+.horie{
+    width: 50%;
+    position: relative;
+    top:690px;
+    left:25%;
+}
+
+
+
+
+
+
+
+
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: 'IconicFill', sans-serif;
+}
+
+body,html{width:100%;height:100%;}
+body{font-family:'Arvo'; background: #4f3b5b;background: -moz-radial-gradient(center, ellipse cover,  #4f3b5b 0%, #231733 100%);background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4f3b5b), color-stop(100%,#231733));background: -webkit-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);background: -o-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);background: -ms-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);background: radial-gradient(ellipse at center,  #4f3b5b 0%,#231733 100%);}
+
+.wrap{width:300px;}
+.center{
+ top:50%;
+ transform:translateY(-50%);
+ position:relative;
+ margin:auto;}
+
+input{
+  display:block;
+    width: 300px;
+    padding: 15px 0 15px 12px;
+    font-family: "Arvo";
+    font-weight: 400;
+    color: #377D6A;
+    background: rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px  1px rgba(255,255,255,0.2);
+    text-indent: 60px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    font-size: 13px;
+}
+input:focus{
+    text-indent: 12px;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+}
+
+label{
+    display: block;
+    position: static;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    font-family: 'Arvo';
+    font-size: 16px;
+}
+
+.wrap-label{
+  width: 300px;
+  height: 34px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  bottom: -15px;
+  overflow: hidden;}
+
+.iconicfill-pen-alt2{
+    position: absolute;
+    left: 10px;
+    color: #fff;
+    font-size:19px;
+    opacity: 1;
+    top: -2px;
+    transform:translateX(-100px);
+}
+
+/* ==== Pen animation ==== */
+.move-pen{animation: move-pen 1s ease-in infinite alternate;}
+@keyframes move-pen{
+    from{transform:translateX(-4px) rotate(6deg);}
+    to{transform:translateX(4px) rotate(-3deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialaccount{
+    position: relative;
+    top:700px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
